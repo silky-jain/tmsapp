@@ -1,0 +1,101 @@
+body{
+	margin: 0;
+	
+}
+.container{
+	
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+   background-color: aqua;
+    height: 80px;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.footer{
+	background-color: aqua; 
+	height: 50px;
+	padding: 15px;
+	font-family: 'Raleway', sans-serif;
+}
+.main {
+    background-color: gray;
+    font-family: 'Raleway', sans-serif;
+    min-height: 500px;
+    display: flow-root;
+}
+form{
+	position: relative;
+	text-align:center;
+    top: 100px;
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+input.btn.btn-success {
+    margin-left: 100px;
+}
+.logo{
+	float: left;
+	width: 400px;
+	
+	font-family: 'Raleway', sans-serif;
+}
+.box {
+    background: white;
+    float: left;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin: 16px;
+    padding: 20px;
+    height: 300px;
+}
+.welcome{
+	color: white;
+	margin-top: 0px;
+	padding: 10px;
+}
+
+.dashboardtable td,th{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    
+}
+select.mode {
+    width: 158px;
+}
+
+button.deleteselected {
+
+	
+    float: right;
+    margin-bottom: 10px;
+     margin-right: 2%;
+   
+}
+form.dashboardform {
+    width: fit-content;
+  
+    position: inherit;
+}
+form.updateform {
+   
+    top: 40px;
+    width: fit-content;
+   
+}
+.md-form.mt-0 {
+    width: fit-content;
+    display: flex;
+    float: left;
+    margin-left: 2%;
+}
